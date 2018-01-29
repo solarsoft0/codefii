@@ -1,0 +1,23 @@
+{   "name": "codefii/project",
+    "description": "codefii web application structure",
+    "homepage": "https://codefii.com",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/iamcoderisk/engine.git"
+        }
+      ],
+    "require": {
+        "twig/twig": "^2.0",
+        "phpmailer/phpmailer":"^5.0",
+        "php": "^5.3.3 || ^7.0",
+        "codefii/network": "*"
+    },
+    "autoload": {
+        "psr-4": {
+             "Codefii\\": "Codefii/",
+             "Network\\":"vendor/.run/..x/..c/Network/"
+        }
+    }
+}
