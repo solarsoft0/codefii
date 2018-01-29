@@ -1,7 +1,7 @@
-{   "name": "codefii/project",
-    "description": "codefii web application structure",
+{   "name": "codefii/app",
+    "description": "A superfast php framework for web Ninjas",
     "homepage": "https://codefii.com",
-    "type": "project",
+    "type": "Framework",
     "repositories": [
         {
             "type": "vcs",
@@ -14,10 +14,12 @@
         "php": "^5.3.3 || ^7.0",
         "codefii/network": "*"
     },
+    
     "autoload": {
         "psr-4": {
              "Codefii\\": "Codefii/",
              "Network\\":"vendor/.run/..x/..c/Network/"
+
         }
     }
 }
