@@ -15,6 +15,7 @@
             "homepage": "https://iamcoderisk.codefii.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "twig/twig": "^2.0",
         "phpmailer/phpmailer":"^5.0",
