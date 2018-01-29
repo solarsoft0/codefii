@@ -8,6 +8,13 @@
             "url":  "https://github.com/iamcoderisk/engine.git"
         }
       ],
+    "authors": [
+        {
+            "name": "Prince E. Darlington",
+            "email": "ekeminyd@gmail.com",
+            "homepage": "https://iamcoderisk.codefii.com"
+        }
+    ],
     "require": {
         "twig/twig": "^2.0",
         "phpmailer/phpmailer":"^5.0",
