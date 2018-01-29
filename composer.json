@@ -20,7 +20,8 @@
         "twig/twig": "^2.0",
         "phpmailer/phpmailer":"^5.0",
         "php": "^5.3.3 || ^7.0",
-        "codefii/network": "*"
+        "codefii/codefii": "1.0.0",
+        "version":"1.0.0"
     },
     
     "autoload": {
