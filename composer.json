@@ -1,5 +1,6 @@
-{   "name": "codefii/app",
+{   "name": "codefii/codefii",
     "description": "A superfast php framework for web Ninjas",
+    "keywords": [ "superfast framework","codefii"],
     "homepage": "https://codefii.com",
     "type": "project",
     "license": "MIT",
@@ -16,7 +17,6 @@
             "homepage": "https://iamcoderisk.codefii.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "twig/twig": "^2.0",
         "phpmailer/phpmailer":"^5.0",
@@ -32,8 +32,13 @@
     
  },
 "extra": {
-    "branch-alias": {
-        "dev-master": "1.0-dev"
+    "codefii": {
+        "dont-discover": []
     }
+},
+"config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
 }
 }
