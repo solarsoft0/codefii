@@ -1,7 +1,7 @@
 {   "name": "codefii/app",
     "description": "A superfast php framework for web Ninjas",
     "homepage": "https://codefii.com",
-    "type": "Framework",
+    "type": "project",
     "license": "MIT",
     "repositories": [
         {
